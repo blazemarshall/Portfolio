@@ -1,0 +1,210 @@
+* {box-sizing: border-box;}
+
+/*color list
+.color-1 {color: #ffffff;}white
+.color-2 {color: #dfdfdf;}
+.color-3 {color: #bfbfbf;}
+.color-4 {color: #9f9f9f;}greys
+.color-5 {color: #808080;}
+.color-6 {color: #606060;}
+.color-7 {color: #404040;}
+.color-8 {color: #202020;}almost black
+*/
+a {
+  font-family: font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+  /*Properties for the beach photo*/
+  max-width:auto;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 25px;
+  margin-top: 16px;
+  border:black 5px solid;
+}
+body {
+  /*Properties include background photo and content centered.*/
+  background-image:url(images/driftwood-beach.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:100% ;
+  max-width: 800px;
+  margin:40px 30%;
+  width: auto;
+  min-width: 510px;
+  
+}
+
+header {
+  /*Contains the H1 title.*/
+  background-color:#606060;
+  height:80px;
+  padding:10px;
+  border-radius:50px 0 10px 10px;
+  text-align:left;
+  border:black 1px solid;
+}
+
+nav {
+  /*Navigation bar box for header*/
+  background-color:#202020;
+  height:75px;
+  padding:6px 0%;
+  margin:auto;
+  min-width: 485px;
+  box-align:center;
+}
+nav2 {
+  /*Navigation bar box for footer*/
+  background-color:#202020;
+  height:75px;
+  padding:6px 0%;
+  margin:auto;
+  min-width: 485px;
+  box-align:center;
+}
+
+main {
+  /*Big dark grey Box between Hdr and Ftr.*/
+  background-color: #606060;
+  border:black 1px solid;
+  margin:80px 0px 0 0;
+  padding:0px 0 0 0; 
+  border-radius:10px;
+  box-shadow:#202020 2px 2px;
+ }
+
+article {
+  /*Each article is seperated by HR lines. */
+  margin:20px;
+  background-color: #606060;
+}
+
+section {
+  /*Each section is light grey and the boxes split up the content.*/
+  background-color:#9f9f9f;
+  border-radius: 3px;
+  margin:5px;
+  padding:1px;
+  box-shadow:#202020 2px 2px;
+}
+
+footer { 
+  /*Contains nav2. Originally contained quote.*/
+  background-color: #606060;
+  border-radius:10px;
+  padding:10px 0 10px 10px;
+  border:black 1px solid;
+  box-shadow:#202020 2px 2px;
+}
+
+quote { /*obsolete item. Originally in footer*/
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+p { /*text in sections*/
+  color:#ffffff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding:10px;
+  text-indent: 50px;
+}
+
+h1 { /*Big Name*/
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#ffffff;
+width:270px;
+height:18px;
+font-size:40px;
+}
+
+h2 { /* Contact and About-Me. */
+color:#ffffff;
+text-shadow:2px 2px #202020;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 { /*"Introduction" */
+  color:#000000;;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  margin:auto; 
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+h4 { /*an obsolete quote box header*/
+  color:#ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0 0 0 50px;
+  text-align:center;
+}
+
+h5 { /*an obsolete quote box header for the footer*/
+  font-style:oblique;
+  color:white
+}
+
+ul { /*used in nav buttons*/
+  list-style-type: none;
+  margin:auto;
+  padding:0px;
+  width:100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol{ /*used in interests.*/
+  color:#ffffff;
+  margin:auto ;
+  list-style-position:inside;
+  text-align: left;
+  text-justify: left;
+  background-color: black;
+  padding: 0 40%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {/*used in nav bar and interests*/
+  padding:0 0px 0px ;
+  width:500px;
+  margin:auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-btn {/*nav buttons....*/
+  background-color:#bfbfbf;;  width:125px;
+  display:block;
+  text-align: center;
+  border:1px grey double;
+  border-radius: 5px;
+  box-shadow:inset #202020 2px 2px 2px;
+}
+
+hr{/*split main articles and  footer*/
+  border:8px solid black;
+  border-radius:5px;
+  box-shadow:#bfbfbf 1px 1px;
+  width:auto;
+  max-width: 90%;
+  min-width: 300px;
+}
+/*affects nav links*/
+a:link{color: #000000;}
+a:visited{color:#DB4545; ;}
+a:hover{color:#bfbfbf ;}
+a:active{color:#1B5AAC ;}
+
+/*inserts < > on h2 for fun */
+h2::before {  content:'<';}
+h2::after {content:">";}
+
+/*classes */
+.center-text {text-align: center;}
+.-color {  background-color:#202020 ;}
+.text
