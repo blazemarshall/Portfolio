@@ -1,14 +1,17 @@
 * {box-sizing: border-box;}
 
 /*color list
-.color-1 {color: #ffffff;}white
-.color-2 {color: #dfdfdf;}
-.color-3 {color: #bfbfbf;}
-.color-4 {color: #9f9f9f;}greys
-.color-5 {color: #808080;}
-.color-6 {color: #606060;}
-.color-7 {color: #404040;}
-.color-8 {color: #202020;}almost black
+1 {color: #ffffff;}white
+2 {color: #dfdfdf;}
+3 {color: #bfbfbf;}
+4 {color: #9f9f9f;}greys
+5 {color: #808080;}
+6 {color: #606060;}
+7 {color: #404040;}
+8 {color: #202020;}almost black
+yellow{ #E7FD00;}
+blue{ #1B5AAC;}
+red {#DB4545;}
 */
 a {
   font-family: font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,6 +29,7 @@ img {
   margin-top: 16px;
   border:black 5px solid;
 }
+
 body {
   /*Properties include background photo and content centered.*/
   background-image:url(images/driftwood-beach.jpg);
@@ -36,7 +40,6 @@ body {
   margin:40px 30%;
   width: auto;
   min-width: 510px;
-  
 }
 
 header {
@@ -109,7 +112,8 @@ quote { /*obsolete item. Originally in footer*/
 }
   
 p { /*text in sections*/
-  color:#ffffff;
+  color:#000000;
+  font-weight: bold;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding:10px;
   text-indent: 50px;
@@ -117,17 +121,17 @@ p { /*text in sections*/
 
 h1 { /*Big Name*/
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color:#ffffff;
-width:270px;
-height:18px;
-font-size:40px;
+  color:#ffffff;
+  width:270px;
+  height:18px;
+  font-size:40px;
 }
 
 h2 { /* Contact and About-Me. */
-color:#ffffff;
-text-shadow:2px 2px #202020;
-text-align: center;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#ffffff;
+  text-shadow:2px 2px #202020;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h3 { /*"Introduction" */
@@ -137,10 +141,11 @@ h3 { /*"Introduction" */
   margin:auto; 
   padding: 10px 0 0;
   text-align: center;
+  text-decoration-line: underline;
 }
 
 h4 { /*an obsolete quote box header*/
-  color:#ffffff;
+  color:#000000;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 0 0 0 50px;
   text-align:center;
@@ -194,8 +199,8 @@ hr{/*split main articles and  footer*/
   max-width: 90%;
   min-width: 300px;
 }
-/*affects nav links*/
-a:link{color: #000000;}
+/*nav links*/
+a:link{color: #E7FD00;}
 a:visited{color:#DB4545; ;}
 a:hover{color:#bfbfbf ;}
 a:active{color:#1B5AAC ;}
@@ -207,4 +212,3 @@ h2::after {content:">";}
 /*classes */
 .center-text {text-align: center;}
 .-color {  background-color:#202020 ;}
-.text
