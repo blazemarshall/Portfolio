@@ -88,7 +88,7 @@ section {
 }
 
 footer { 
-  /*Contains nav2. Originally contained quote.*/
+  /*Contains nav. Originally contained quote.*/
   background-color: #606060;
   border-radius:10px;
   padding:10px 0 10px 10px;
@@ -193,7 +193,7 @@ hr{/*split main articles and  footer*/
 /*nav links*/
 a:link{color: #000000;}
 a:visited{color:#DB4545; ;}
-a:hover{color:#bfbfbf ;}
+a:hover{color:#050505 ;}
 a:active{color:#1B5AAC ;}
 
 /*inserts < > on h2 for fun */
@@ -203,3 +203,4 @@ h2::after {content:">";}
 /*classes */
 .center-text {text-align: center;}
 .color {  background-color:#606060 ;}
+.light-color {color:#ffffff;}
