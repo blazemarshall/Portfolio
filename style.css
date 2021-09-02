@@ -61,15 +61,6 @@ nav {
   min-width: 485px;
   box-align:center;
 }
-nav2 {
-  /*Navigation bar box for footer*/
-  background-color:#202020;
-  height:75px;
-  padding:6px 0%;
-  margin:auto;
-  min-width: 485px;
-  box-align:center;
-}
 
 main {
   /*Big dark grey Box between Hdr and Ftr.*/
@@ -211,4 +202,4 @@ h2::after {content:">";}
 
 /*classes */
 .center-text {text-align: center;}
-.-color {  background-color:#202020 ;}
+.color {  background-color:#606060 ;}
