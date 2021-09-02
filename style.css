@@ -191,7 +191,7 @@ hr{/*split main articles and  footer*/
   min-width: 300px;
 }
 /*nav links*/
-a:link{color: #E7FD00;}
+a:link{color: #000000;}
 a:visited{color:#DB4545; ;}
 a:hover{color:#bfbfbf ;}
 a:active{color:#1B5AAC ;}
