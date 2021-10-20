@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head> <!--sets up all of the data...all of it.-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Blaze's Portfolio</title>
+    <title>Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -25,15 +25,16 @@
 
     <main>
       <!-- Main contains an image of the beach -->
-      <img src="images/beach-photo.jpg" alt= " Sunrise on beach " >
+      <img src="images/beach-photo.jpg" >
 
       <article id="intro" class="border align-center">
-       <h2>Introduction</h2>
+       
           <hr>  
 
         <section>
           <h3> I'm Blaze Marshall.</h3>
-          <p>I'm a 34 year old looking to build a new career. I grew tired of occupations that required my hands more than my brain. I am currently located in the north Georgia area.</p>
+          <p>I'm a 34 year old looking to build a new career. I grew tired of occupations that required my hands more than my brain.</p>
+          
         </section>
 
       </article>
@@ -44,24 +45,22 @@
 
         <h2>About Me:</h2>
         <section> 
-          <h3>Surprising Direction</h3>
           <p> After wandering from job to job aimlessly, I encountered web design and fell in love with it. I want to help others arrive at success by bringing design and utility together in a fun functional package.</p>
         </section>
           
         <section >
-          <h3>Side pursuits</h3>
-          <p>As someone who enjoys learning, topics of interest vary widely. This seems to help in understanding others and in communication about their projects.
-            <h4>A few of my interests include:</h4> 
+          <p>As someone who enjoys learning, topics of interest vary widely. This seems to help in understanding others and in communication about their projects.<br> <br>A few of my interests include:</p> 
+
             <ol>
               <li>3d Printing</li>  
               <li>Welding</li>  
               <li>Absorbing the internet</li>  
               <li>Family & friends</li>  
             </ol>
+          </p>
         </section>
 
         <section>
-          <h3>Community</h3>
           <p>I would love to meet new contacts and get involved further in projects related to software development. <br> <br>If you're interested, message me at the links below.</p>
         </section>
         <hr>
@@ -69,30 +68,42 @@
       
       <!--hyperlinks to github and linked in -->
       <article id="contact" class="border align-center center-text"> 
-        <h2>Contact:</h2> 
-          <a style=
-          "background-color:#ffffff; border-radius:3px; padding:5px;"
-          
-          href="https://github.com/blazemarshall" target="_blank">GitHub</a>
+        <h2>Contact:</h3> 
+          <a href="https://github.com/blazemarshall" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/gblaze-marshall-644ba4202/" target="_blank">LinkedIn</a>
 
-          <a style=
-          "background-color:#ffffff; border-radius:3px; padding:5px;"
-          
-          href="https://www.linkedin.com/in/blaze-marshall-644ba4202/" target="_blank">Linked-In</a>
-          
+        <div>
+          <form  action="https://formspree.io/f/xzbyqrwj"method="POST">
+            <div>
+            <div class="item"> 
+              <label for="name">Your Name:</label>
+              <input id="name" type="text" name="name"/>
+            </div>
+            <div class="item">
+              <label for="email">Your email:</label>
+              <input id="email" type="text" name="email"/>
+            </div> 
+            <div class="item">
+              <label for="message">Your message:</label>
+              <input id="message" type="textarea" name="message"/>
+            <div> 
+            </div>  
+  <!-- your other form fields go here -->
+            <button type="submit">Send Email</button>
+          </form>
+        </div>
       </article>
 
     </main>
 <hr>
     <footer>
-      <nav class="color">
-        <!--Navigation Bar with buttons that change with interaction.-->
+      <nav2 class="-color"><!--Navigation Bar with buttons that change with interaction.-->
         <ul >
           <li> <a href="#intro" class="nav-btn">Introduction</a></li>     
           <li> <a href="#about-me" class="nav-btn">About Me</a></li>
           <li> <a href="#contact" class="nav-btn">Contact </a></li>
         </ul> 
-      </nav>
+      </nav2>
 
     </footer>
 
